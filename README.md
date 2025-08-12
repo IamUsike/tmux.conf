@@ -108,20 +108,16 @@
 
 ```bash
 
-##### Start new session
-
+# Start new session
 tmux new-session -s session_name
 
-##### Attach to session
-
+# Attach to session
 tmux attach-session -t session_name
 
-##### List sessions
-
+# List sessions
 tmux list-sessions
 
-##### Kill session
-
+# Kill session
 tmux kill-session -t session_name
 
 ```
